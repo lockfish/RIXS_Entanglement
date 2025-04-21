@@ -1,4 +1,6 @@
 - This is for Ba3CeIr2O9
 - ED_Ce.py - for basis and state generation (exact diagonalization)
 - rixs_Ce_compare - for generating rixs spectrum used for comparison with experiments
+- Ba3CeIr2O9_plot.ipynb - for plotting the results
+- dataManager_Ce.ipynb - for packing the results
 - calc_Ba3CeIr2O9 - calculation results
