@@ -1,0 +1,4 @@
+- witness_utils.py - utilities
+- witness_ED.py - basis generation and state construction (exact diagonalization)
+- entanglement_witness.py - calculate RIXS spectrum; calculate denominator for entanglement witness
+- entanglement_witness_conjugate.py - calculate conjugate RIXS spectrum
