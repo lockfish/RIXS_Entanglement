@@ -1,7 +1,7 @@
 import numpy as np
 import sys
 sys.path.append('/tren/edrixs/scripts')
-from witness_ED import dimer_witness
+from witness import dimer_witness
 
 witness = dimer_witness(folder='/project/tren/edrixs/calc_Ba3CeIr2O9')
 witness.construct_basis(10, eg_max=1)
