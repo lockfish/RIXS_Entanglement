@@ -1,7 +1,7 @@
 import numpy as np
 import sys
 sys.path.append('/tren/edrixs/scripts')
-from entanglement_witness import dimer_witness, calc_RIXS_dimerCe
+from witness import dimer_witness, calc_RIXS_dimerCe
 
 # for cutmap
 
