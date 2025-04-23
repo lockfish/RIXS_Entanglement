@@ -10,3 +10,4 @@
 #SBATCH --time=0-04:00:00
 
 python ED_Ce.py > ED_Ce.txt
+python Fixed_N.py
