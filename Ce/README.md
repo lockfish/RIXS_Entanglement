@@ -4,4 +4,5 @@
 - rixs_Ce_compare - for generating rixs spectrum used for comparison with experiments
 - Ba3CeIr2O9_plot.ipynb - for plotting the results
 - dataManager_Ce.ipynb - for packing the results
-- calc_Ba3CeIr2O9 - calculation results
+- qfi_pol_Ce.py and qfi_sum_Ce.py - for QFI calculations
+- calc_Ba3CeIr2O9 - calculation results and analysis
