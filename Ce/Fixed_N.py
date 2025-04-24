@@ -1,8 +1,9 @@
 import numpy as np
+import sys
+sys.path.append('/tren/edrixs/scripts')
 from witness_utils import get_fock_bin_by_N_S, SparseBinary
 
 folder='/project/tren/edrixs/calc_Ba3CeIr2O9'
-# folder='/Users/tianhao/Desktop/edrixs/calc_Ba3CeIr2O9'
 
 all_basis = []
 eg_max = 1
