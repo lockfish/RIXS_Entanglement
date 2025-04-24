@@ -7,11 +7,6 @@
 #SBATCH --partition=thal5
 #SBATCH --nodes=1
 #SBATCH --mem-per-cpu=6G
-#SBATCH --time=0-015:00:00
+#SBATCH --time=0-24:00:00
 
-python sum_rixs_E.py
-python sum_denom_E.py
-python sum_FQ_E.py
-python sum_rixs_M.py
-python sum_denom_M.py
-python sum_FQ_M.py
+python qfi_sum_Ce.py
