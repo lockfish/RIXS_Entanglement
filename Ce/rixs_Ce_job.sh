@@ -7,6 +7,6 @@
 #SBATCH --partition=thal5
 #SBATCH --nodes=1
 #SBATCH --mem-per-cpu=1G
-#SBATCH --time=0-04:00:00
+#SBATCH --time=0-12:00:00
 
 python rixs_Ce_compare.py
