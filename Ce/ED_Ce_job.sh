@@ -7,7 +7,7 @@
 #SBATCH --partition=thal5
 #SBATCH --nodes=1
 #SBATCH --mem-per-cpu=1G
-#SBATCH --time=0-04:00:00
+#SBATCH --time=0-08:00:00
 
 python ED_Ce.py > ED_Ce.txt
 python Fixed_N.py
