@@ -3,9 +3,9 @@ import sys
 sys.path.append('/tren/edrixs/scripts')
 from witness import dimer_witness, calc_RIXS_dimerCe
 
-# for cutmap
+witness = dimer_witness(folder='/project/tren/edrixs/calc_Ba3CeIr2O9')
 
-witness = dimer_witness(folder='/project/tren/edrixs_compare/calc_Ba3CeIr2O9')
+# for cutmap
 RIXS_params = dict(Gam_c=2.47, sigma=0.075, fraction=0., omega=-559, eloss=np.arange(-0.5,6.01,0.01),
                    pol=[(0, 0), (0, np.pi/2.0)], T=9., eline=None, folder=witness.folder)
 rixs1 = calc_RIXS_dimerCe(tth=96.6, thin=19.75, HKL=[-3.3,0.,17.48], phi=10., **RIXS_params).sum(axis=(0,1))
@@ -18,7 +18,6 @@ rixs = np.vstack([RIXS_params['eloss'], rixs1, rixs2, rixs3, rixs4, rixs5, rixs6
 np.save(witness.folder+'/compare/rixs.npy', rixs)
 
 # for Emap
-witness = dimer_witness(folder='/project/tren/edrixs/calc_Ba3CeIr2O9')
 RIXS_params = dict(Gam_c=2.47, sigma=0.075, fraction=0., omega=np.arange(-570,-540.01,0.2), eloss=np.arange(-1.,10.01,0.005),
                    pol=[(0, 0), (0, np.pi/2.0)], T=9., eline=None, folder=witness.folder)
 rixs = calc_RIXS_dimerCe(tth=90.89, thin=38.84, HKL=[-0.5,0.,18.94], phi=10., **RIXS_params)
