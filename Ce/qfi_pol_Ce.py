@@ -1,7 +1,9 @@
 import numpy as np
 import sys
 sys.path.append('/tren/edrixs/scripts')
-from witness import dimer_witness, QFI_denom_dimerCe
+from witness import dimer_witness
+from witness import calc_RIXS_dimerCe, conjugate_RIXS_dimerCe
+from witness import QFI_denom_dimerCe, calc_FQ_dimerCe
 
 witness = dimer_witness(folder='/project/tren/edrixs/calc_Ba3CeIr2O9')
 
