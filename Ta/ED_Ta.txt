@@ -1,0 +1,10 @@
+basis shape without core levels: [540, 20]
+basis shape for initial/final states: [540, 32]
+basis shape for site 1 intermediate states: [582, 32]
+basis shape for site 2 intermediate states: [582, 32]
+----> Diagonalizing Hamiltonian...
+----> 540 states found between 208.49 and 219.52 eV
+----> Diagonalizing Hamiltonian...
+----> 582 states found between -350.18 and 1369.41 eV
+----> Diagonalizing Hamiltonian...
+----> 582 states found between -350.18 and 1369.41 eV
