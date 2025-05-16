@@ -1,0 +1,8 @@
+- This is for Ba3TaIr2O9
+- ED_Ta.py - for basis and state generation (exact diagonalization)
+- Fixed_N_Ta.py - for pure state generation used later for QFI calculation
+- rixs_Ta_compare - for generating rixs spectrum used for comparison with experiments
+- Ba3TaIr2O9_plot.ipynb - for plotting the results
+- dataManager_Ta.ipynb - for packing the results
+- qfi_pol_Ta.py and qfi_sum_Ta.py - for QFI calculations
+- calc_Ba3TaIr2O9 - calculation results and analysis
