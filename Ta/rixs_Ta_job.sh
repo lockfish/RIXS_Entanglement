@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#SBATCH --job-name=edrixsCal
+#SBATCH --mail-user=tr2401@columbia.edu
+#SBATCH --mail-type=begin,end
+
+#SBATCH --partition=thal5
+#SBATCH --nodes=1
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=0-12:00:00
+
+python rixs_Ta_compare.py
